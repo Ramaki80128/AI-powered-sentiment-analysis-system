@@ -36,7 +36,7 @@ The dataset used for this project can be found [here](https://www.kaggle.com/dat
 ### Model Training
 Train the sentiment analysis model using the provided scripts. Save the trained model along with the vectorizer and label encoder:
 ```bash
-python train_model.py
+jupyter notebook train.ipynb
 ```
 
 ### Streamlit UI
@@ -50,14 +50,17 @@ streamlit run ui_streamlit.py
 - ![image](https://github.com/user-attachments/assets/6b564c47-8b7b-48ce-9ad1-919b7c141d32)
 
 
-
-### FastAPI UI and API
+- ### FastAPI UI and API
 Run the FastAPI app for both API and a simple HTML UI:
 ```bash
 uvicorn ui_api:app --reload
 ```
 - Open `http://127.0.0.1:8000/` in your browser for the UI.
 - Send POST requests to `http://127.0.0.1:8000/predict` with JSON:
+  ```json
+  {
+    "text": "I love this!"
+  }
 
 - ![image](https://github.com/user-attachments/assets/3afce606-f2b9-4cf3-820b-faa999abc882)
 
