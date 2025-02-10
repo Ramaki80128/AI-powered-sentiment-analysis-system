@@ -28,7 +28,7 @@ The dataset used for this project can be found [here](https://www.kaggle.com/dat
    ```
 3. Install the required dependencies:
    ```bash
-   pip install -r requirements.txt
+   pip install -r Requirements.txt
    ```
 
 ## Usage
