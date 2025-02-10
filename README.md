@@ -9,7 +9,8 @@ This project focuses on sentiment analysis of tweets using machine learning tech
 - Model training with machine learning algorithms
 - Sentiment prediction (Positive, Negative, Neutral)
 - Deployment using FastAPI (API) and Streamlit (UI)
-
+## Dataset
+The dataset used for this project can be found [here](https://www.kaggle.com/datasets/jp797498e/twitter-entity-sentiment-analysi
 ## Installation
 1. Clone the repository:
    ```bash
