@@ -47,7 +47,8 @@ streamlit run ui_streamlit.py
 - Enter your tweet in the text area.
 - Click on "Analyze Sentiment" to get the prediction.
 
-- ![image](https://github.com/user-attachments/assets/eb1ac080-96b7-4bd9-9d76-cb902fd35460)
+- ![image](https://github.com/user-attachments/assets/6b564c47-8b7b-48ce-9ad1-919b7c141d32)
+
 
 
 ### FastAPI UI and API
