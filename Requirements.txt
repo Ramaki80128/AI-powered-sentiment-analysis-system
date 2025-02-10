@@ -6,3 +6,10 @@ fastapi
 uvicorn
 pickle-mixin
 jupyter
+matplotlib  
+seaborn  
+plotly  
+nltk  
+xgboost  
+wordcloud  
+tensorflow 
