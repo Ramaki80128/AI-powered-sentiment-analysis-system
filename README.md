@@ -43,6 +43,9 @@ streamlit run ui_streamlit.py
 - Enter your tweet in the text area.
 - Click on "Analyze Sentiment" to get the prediction.
 
+  ![image](https://github.com/user-attachments/assets/956c4470-fb88-4b14-a432-12d3a371ca25)
+
+
 ### FastAPI UI and API
 Run the FastAPI app for both API and a simple HTML UI:
 ```bash
@@ -55,6 +58,8 @@ uvicorn ui_api:app --reload
     "text": "I love this!"
   }
   ```
+  ![image](https://github.com/user-attachments/assets/37171953-2bbd-4947-a3fb-2affdc415858)
+
 
 ## Project Structure
 ```
