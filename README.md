@@ -38,7 +38,14 @@ Train the sentiment analysis model using the provided scripts. Save the trained 
 ```bash
 jupyter notebook train.ipynb
 ```
+### Model Selection
+Multiple machine learning algorithms were tested for sentiment analysis, including Logistic Regression, Random Forest, XGBoost, and LSTM. The best model was selected based on the following evaluation metrics:
+- **Accuracy**: Measures the percentage of correct predictions.
+- **Precision, Recall, and F1-Score**: Evaluate the model's performance in classifying positive, negative, and neutral sentiments.
+- **Confusion Matrix**: Provides insight into misclassifications.
+- **Cross-Validation Scores**: Ensures model robustness and generalization.
 
+The model with the highest F1-Score and balanced precision-recall scores across all sentiment classes was chosen as the final model.
 ### Streamlit UI
 Run the Streamlit app to analyze tweet sentiments:
 ```bash
